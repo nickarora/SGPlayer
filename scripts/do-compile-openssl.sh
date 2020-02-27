@@ -191,6 +191,7 @@ if [ -f "./Makefile" ]; then
     echo 'reuse configure'
 else
     echo "config: $OPENSSL_CFG_FLAGS"
+    export COMMAND_MODE=unix2003
     ./Configure \
         $OPENSSL_CFG_FLAGS
     make clean
