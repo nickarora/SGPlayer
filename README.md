@@ -8,6 +8,9 @@
 
 - SGPlayer is a powerful media play framework for iOS, macOS, and tvOS.
 
+## To Create a Fat Framework
+[Use these instructions](https://github.com/gurhub/universal-framework)
+
 ## Based On
 
 - FFmpeg
